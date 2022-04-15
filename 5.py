@@ -13,7 +13,7 @@ def matrix_union(mat1, mat2):
     mat_union = []
     for i in range(len(mat1)):
         mat_union.append([mat1[i][j] or mat2[i][j]
-                          for j in range(len(mat1[0]))])
+            for j in range(len(mat1[0]))])
 
     return mat_union
 
